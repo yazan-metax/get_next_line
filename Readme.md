@@ -12,7 +12,7 @@
 open() Function:
 - open() is a system call used to open files in C. It returns a file descriptor that uniquely identifies an open file in the operating system.
 - Syntax:int open(const char *pathname, int flags);
-- pathname specifies the path to the file.
-- flags indicate the mode in which the file should be opened (e.g., read-only, write-only, read-write, etc.).
+- pathname: specifies the path to the file.
+- flags: indicate the mode in which the file should be opened (e.g., read-only, write-only, read-write, etc.).
 - ile access modes can be specified using flags like O_RDONLY, O_WRONLY, O_RDWR, and other options like O_CREAT, O_APPEND, etc.
 ```
