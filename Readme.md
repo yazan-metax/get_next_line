@@ -6,6 +6,8 @@
 
 - Its core functionality typically involves reading from a file or an input stream (like stdin) until it reaches a newline character or the end of the file. Upon encountering a newline character, it stores the line read into a buffer and returns it to the calling function. Subsequent calls to get_next_line() continue from where the previous call left off, allowing you to retrieve subsequent lines.
 
+## GOALS
+This project will not only allow you to add a very convenient function to your collection, but it will also make you learn a highly interesting new concept in C programming: static variables.
 
 ## requirements ℹ️:
 
@@ -35,4 +37,6 @@
 - When a file is opened using open(), a new file descriptor is created.
 - File descriptors are used by various I/O system calls (read(), write(), close(), etc.) to perform operations on files or other I/O resources.
 ```
+
+
 
