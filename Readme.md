@@ -39,6 +39,9 @@ This project will not only allow you to add a very convenient function to your c
 - When a file is opened using open(), a new file descriptor is created.
 - File descriptors are used by various I/O system calls (read(), write(), close(), etc.) to perform operations on files or other I/O resources.
 ```
-
-
-
+### `static variable`:
+- In C, a static variable is a type of variable that retains its value between function calls and has a different scope compared to regular variables.
+- important key-points:
+#### - Lifetime and Scope:
+- Lifetime: Static variables have a lifetime that spans the entire execution of the program. They are initialized only once before the program starts and retain their values throughout the program's execution.
+- cope: The scope of a static variable is limited to the block in which it is declared, similar to local variables. However, static variables maintain their values across function calls within that scope.
