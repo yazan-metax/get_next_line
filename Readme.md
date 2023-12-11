@@ -73,6 +73,20 @@ int main() {
     return 0;
 }
 ```
-<span style="color: green"> Some green text </span>
+## usage⚙️:
+
+### requirements:
+- gcc compiler.
+- c libraries(you can find them in the header files).
+### Instructions
+- to use this function in your code simply include the files inside your program then add the header into your header file or directly to your c file.
+```
+#include "get_next_line.h"
+```
+- this function can be compiled by adding the source files and the necessary flags.
+```
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
+```
+
 
 
