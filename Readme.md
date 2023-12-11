@@ -9,7 +9,7 @@
 
 ## requirements ℹ️:
 
-### ✏️General Information about `open()`, `read()` Functions, and `File Descriptors`.
+- ### ✏️General Information about `open()`, `read()` Functions, and `File Descriptors`.
 
 ### open() Function:
 ```
