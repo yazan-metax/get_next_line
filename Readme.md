@@ -89,6 +89,6 @@ gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.
 ```
 ## final note 📍:
 - İ included the main function for both mandatory and bonus part you can simply use them by commenting them in.
-- İ also added test files,you can change what is inside them upon your need.
+- İ also added test files(file.txt) ,you can change what is inside them upon your need.
 
 # i hope you find this explanation useful for your need:)
