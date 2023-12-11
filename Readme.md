@@ -28,4 +28,11 @@
 - count is the number of bytes to read.
 - Returns the number of bytes read or -1 on error.
 ```
+- ### file Descriptor:
+```
+- A file descriptor is an integer value used to uniquely identify an open file in an operating system. It's an index into the file descriptor table maintained by the kernel.
+- standard input (stdin), standard output (stdout), and standard error (stderr) are represented by file descriptors 0, 1, and 2, respectively.
+- When a file is opened using open(), a new file descriptor is created.
+- File descriptors are used by various I/O system calls (read(), write(), close(), etc.) to perform operations on files or other I/O resources.
+```
 
