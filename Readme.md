@@ -54,5 +54,25 @@ This project will not only allow you to add a very convenient function to your c
 - ### Function Scope:
 - Static variables inside functions are only accessible within that function. They are not visible or accessible from outside that function scope.
 
+### example of the usage of static variables:
+```
+#include <stdio.h>
+
+void exampleFunction() {
+    static int count = 0; // Static variable declaration
+
+    count++; // Increment count
+    printf("Count is: %d\n", count);
+}
+
+int main() {
+    exampleFunction(); // Outputs: Count is: 1
+    exampleFunction(); // Outputs: Count is: 2
+    exampleFunction(); // Outputs: Count is: 3
+
+    return 0;
+}
+```
+
 
 
