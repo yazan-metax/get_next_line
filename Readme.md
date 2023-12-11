@@ -8,4 +8,9 @@
 
 ### ✏️General Information about `open()`, `read()` Functions, and `File Descriptors`.
 
+```
+`open()` Function:
+- `open()` is a system call used to open files in C. It returns a file descriptor that uniquely identifies an open file in the operating system.
+- Syntax: `int open(const char *pathname, int flags);`
 
+```
