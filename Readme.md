@@ -11,12 +11,21 @@
 
 - ### ✏️General Information about `open()`, `read()` Functions, and `File Descriptors`.
 
-### open() Function:
+- ### open() Function:
 ```
 - open() is a system call used to open files in C. It returns a file descriptor that uniquely identifies an open file in the operating system.
 - Syntax:int open(const char *pathname, int flags);
 - pathname: specifies the path to the file.
 - flags: indicate the mode in which the file should be opened (e.g., read-only, write-only, read-write, etc.).
 - file access modes can be specified using flags like O_RDONLY, O_WRONLY, O_RDWR, and other options like O_CREAT, O_APPEND, etc.
+```
+- ### read() Function:
+```
+- read(): is used to read data from an open file descriptor into a buffer.
+- Syntax: ssize_t read(int fd, void *buf, size_t count);
+- fd: is the file descriptor obtained from open().
+- buf is the buffer where the read data will be stored.
+- count is the number of bytes to read.
+- Returns the number of bytes read or -1 on error.
 ```
 
