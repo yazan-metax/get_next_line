@@ -45,3 +45,6 @@ This project will not only allow you to add a very convenient function to your c
 #### - Lifetime and Scope:
 - Lifetime: Static variables have a lifetime that spans the entire execution of the program. They are initialized only once before the program starts and retain their values throughout the program's execution.
 - cope: The scope of a static variable is limited to the block in which it is declared, similar to local variables. However, static variables maintain their values across function calls within that scope.
+- ### Initialization:
+- By default, static variables are initialized to zero (0) if no explicit initialization is provided. For instance, static int x; will set x to 0.
+- You can also explicitly initialize a static variable during declaration: `static int count = 0;`.
